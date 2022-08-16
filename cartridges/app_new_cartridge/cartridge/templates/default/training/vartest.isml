@@ -1,0 +1,19 @@
+
+
+
+
+<isset name="sessionVar" value="${1}" scope="session" />
+
+${session.custom.sessionVar}</br>
+
+${session.custom.sessionVar + 5 }</br>
+
+<isset name="sessionVar" value="${false}" scope="session" />
+
+${session.custom.sessionVar}</br>
+
+<isset name="sessionVar" value="${"hellowooord"}" scope="session" />
+
+${session.custom.sessionVar}</br>
+
+
