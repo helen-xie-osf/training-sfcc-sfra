@@ -99,6 +99,7 @@ function CartModel(basket) {
         this.actionUrls = getCartActionUrls();
         this.numOfShipments = basket.shipments.length;
         this.totals = totalsModel;
+        // add notes here
         this.notes = basket.notes;
 
         if (shippingModels) {
